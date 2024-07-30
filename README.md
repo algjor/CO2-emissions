@@ -29,6 +29,11 @@ For these vehicle Makes:
 16.	Rolls Royce 20
 17.	Seat 2934
 18.	Suzuki2231
+19.	20.	Toyota 6338
+21.	Volkswagen 21296
+22.	Volvo 8988
+  
+  
   Because the Co2 Dataset was too large we eliminated some of the columns in excel before uploading it into the code. For our analysis we did what we had done in previous projects and first listed the visualizations & steps or code that made sense before we opened VS Code or Google Collab to start adding code. We chose the following visualizations in our initial plan:
 1.	Import panda libraries and dependencies
 2.	Preprocess xls file
@@ -52,8 +57,5 @@ Once we began working on the datasets we realized that the comparison of Car Pri
 With that decision made we began adding the code to our VS File and ran the first set of corrections on 7/29. To add the code we relied on previous homework & class asingments and we also had the need for a line of code that we had not reviewed in class before, which was to make the text in our datasets lower case so that they wouldn’t cause syntax errors, that line of code was: 
 df = df.applymap(lambda x: x.lower() if isinstance(x, str) else x)
 
-20.	Toyota 6338
-21.	Volkswagen 21296
-22.	Volvo 8988
 
 
