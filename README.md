@@ -29,8 +29,31 @@ For these vehicle Makes:
 16.	Rolls Royce 20
 17.	Seat 2934
 18.	Suzuki2231
-19.	Toyota 6338
-20.	Volkswagen 21296
-21.	Volvo 8988
+  Because the Co2 Dataset was too large we eliminated some of the columns in excel before uploading it into the code. For our analysis we did what we had done in previous projects and first listed the visualizations & steps or code that made sense before we opened VS Code or Google Collab to start adding code. We chose the following visualizations in our initial plan:
+1.	Import panda libraries and dependencies
+2.	Preprocess xls file
+3.	Import, read, and write data frame
+4.	Remove columns and rename columns
+5.	The CO2 data and Car Price Data cleaned by sorting and dropping empty rows (fill null values etc).
+6.	Merge CO2 data and Car Price Data (on Brand)
+7.	Visualizations
+1.	Scatterplot -Al
+2.	Boxplot - Ebeni
+3.	Pairplot
+4.	Heatmap
+5.	Correlation & bar chart
+6.	Histogram
+8.	Test/Train/Split Data
+9.	Normalization Factor for standardizing the data (NN – Day 3 activity 2 – preprocessing) in respect to the target ~ 95 g C02 /km (cars) and 147 g C02 /km (vans)
+10.	 Fit the Model and compare several models for accuracy
+11.	 Prediction Model (18 -Neural Networks Day 2 activities 5 & 7) – Printing the top 3 numbers. Day 2 ex.7 – Predicting objectivity (making predictions) 
+12.	 Evaluations:   (NN- Day 3 Activity 6 ) generate recommendations for price and C02 -> generate a code.  Addresses 2nd part
+Once we began working on the datasets we realized that the comparison of Car Prices from our second dataset would not be an accurate comparison to the Co2 numbers as they are for different years and the difference is too far apart for an accurate comparison. Where as the dataset for Car prices included model years from the 70’s through the 90’s, the Co2 dataset was for cars in model year 2021. Because of this discrepancy we decided to research the average car price per make in 2021 and adding that to our dataset using a for loop, and not merge the two datasets. Instead each serves as an individual reference point. 
+With that decision made we began adding the code to our VS File and ran the first set of corrections on 7/29. To add the code we relied on previous homework & class asingments and we also had the need for a line of code that we had not reviewed in class before, which was to make the text in our datasets lower case so that they wouldn’t cause syntax errors, that line of code was: 
+df = df.applymap(lambda x: x.lower() if isinstance(x, str) else x)
+
+20.	Toyota 6338
+21.	Volkswagen 21296
+22.	Volvo 8988
 
 
