@@ -5,11 +5,13 @@ First, we were reviewing carbon footprint of some of the materials used to make 
 In these European Environmental Agency Guidelines: https://www.eea.europa.eu/en/analysis/indicators/co2-performance-of-new-passenger#:~:text=To%20help%20achieve%20the%20EU's,2035%20(100%25%20reduction). 
 
 We then researched databases and found this one from the Environmental Agency which includes raw data for emissions / CO2 usage & also fuel usage for petrol & diesel vehicles in Europe model years 2018 to 2023. While we were reviewing the data and the dashboard we decided to also look at the average price of the vehicles in the dataset, curious if price would correlate to emissions standards. 
+
 The Dataset with European car prices can be found in this dataset
 https://www.kaggle.com/code/dronax/car-prices-dataset.
 Once we had both datasets we came up with these two problem statements we will try to solve:
 1.	How likely “Real World – CO2 Emissions (g/KM) will be to the WLTP (World harmonized Light Vehicle Test Procedure) Standard in Europe for vehicles model year 2018 to 2023.
 a.	Identify the Price Point (vehicle make & model) at which a vehicle’s CO2 Emissions (g/KM) is most beneficial for the environment by reviewing how price point of vehicle drives/influences CO2 Emissions.
+
 For these vehicle Makes:
 1.	Audi AG 2978
 2.	Peugeot 11817 
